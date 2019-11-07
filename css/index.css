@@ -1,0 +1,461 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #222;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.subtitle {
+  color: #555;
+  margin: 0;
+}
+
+.header__info,
+.main__hero--container,
+.main__about,
+.main__projects,
+.footer__info,
+.footer__nav {
+  margin: 0 auto;
+  max-width: 102rem;
+  width: 85%;
+}
+
+.header__info {
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+}
+
+.header__list,
+.footer__menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__list--item ,
+.footer__menu--item {
+  list-style: none;
+  padding: 0 3rem;
+}
+
+.header__list--link,
+.footer__menu--link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__list--link:hover {
+  color: #345477;
+  border-bottom: 2px solid #345477;
+}
+
+.header,
+.main__hero {
+  background-color: #f0f0f6;
+}
+
+.side-menu {
+  display: none;
+}
+
+.main__hero {
+  padding: 12rem 0;
+}
+
+.main__about,
+.main__projects,
+.footer {
+  margin: 12rem auto;
+}
+
+.main__hero--subtitle,
+.main__hero--citation {
+  margin: .5rem;
+}
+
+.main__hero--citation {
+  font-size: 5rem;
+}
+
+.main__about {
+  display: flex;
+}
+
+.main__about--image {
+  align-self: center;
+  border-radius: 1rem;
+  margin-right: 4rem;
+  height: 50%;
+  width: 50%;
+}
+
+.main__about--subtitle,
+.main__about--title {
+  margin: 0;
+}
+
+.main__about--paragraph {
+  line-height: 2.5rem;
+}
+
+.main__about--technologies {
+  color: #345477;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main__projects--title,
+.main__projects--subtitle {
+  margin: 0;
+}
+
+.main__projects--info {
+  display: flex;
+  margin: 5rem auto;
+  padding: 0;
+}
+
+.main__projects--container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3rem;
+}
+
+.main__projects--img {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.main__projects--list {
+  list-style: none;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.main__projects--link {
+  color: inherit;
+  font-weight: bold;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.main__projects--link:hover,
+.main__projects--link:visited {
+  color: #345477;
+  border-bottom: 1px solid #345477;
+}
+
+.button {
+  font-size: 1.4rem;
+  text-align: right;
+  transition: all .2s;
+}
+
+.button:hover {
+  transform: translateY(-.3rem);
+}
+
+.button:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+}
+
+.button__detail {
+  background-color: #5E7697;
+  border-radius: 5px;
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.button__detail:hover {
+  background-color: #345477;;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+}
+
+.button__detail:active {
+  box-shadow: 0 .8rem 1rem rgba(0, 0, 0, .2);
+}
+
+.footer {
+  background-color: #161925;
+  color: #f0f0f6;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.footer__info {
+  display: flex;
+  align-items: center;
+}
+
+.footer__contact {
+  margin-right: 5rem; 
+}
+
+.footer__contact--subtitle {
+  color: #999;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__contact--title,
+.footer__contact--p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__contact--msg {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.footer__contact--list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 3rem;
+  padding: 0;
+  width: 50rem;
+}
+
+.icon {
+  color: #f0f0f6;
+  font-size: 6rem;
+}
+
+.icon:hover {
+  color: #8299B2;
+  transform: scale(1.1) rotate(-10deg);
+}
+
+.footer__nav {
+  align-items: center;
+  color: #999;
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: space-between;
+  padding-top: 8rem;
+}
+
+.footer__nav--copyright,
+.footer__menu--link{
+  margin: 0;
+  transition: all .2s;
+}
+
+.footer__menu--link:hover {
+  color: #8299B2;
+  border-bottom: 2px solid #8299B2;
+}
+
+/* ------ Media Queries ------ */
+@media (max-width: 900px) {
+
+  html {
+    font-size: 50%;
+  }
+
+  .header__info {
+    font-size: 1.5rem;
+  }
+
+  .subtitle,
+  .footer__contact--subtitle {
+    font-size: 1.2rem;
+  }
+
+  .main__about {
+    flex-direction: column;
+  }
+
+  .main__about--image {
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    width: 60%
+  }
+
+  .main__about--info {
+    margin: 0 auto;
+  }
+
+  .main__about--title {
+    margin-bottom: 2rem;
+  }
+
+  .main__about--paragraph, 
+  .main__projects {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .main__about--technologies {
+    margin: 2rem auto;
+    width: 75%;
+  }
+
+  .main__projects--container {
+    margin: 0 auto;
+    padding: 0 .5rem;
+  }
+
+  .main__projects--list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__projects--info {
+    margin-bottom: 10rem;
+  }
+
+  .footer__nav {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .header__list {
+    padding-left: 1rem;
+  }
+
+  .header__list--item {
+    padding: 0 1rem;
+  }
+
+  .main__hero {
+    padding: 3rem;
+  }
+
+  .main__hero--citation {
+    font-size: 4rem;
+    margin: 0;;
+  }
+
+  .footer {
+    padding-bottom: 2rem;
+  }
+
+  .footer__nav {
+    font-size: 1.2rem;
+  }
+
+  .footer__menu {
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  .icon {
+    font-size: 4rem;
+  }
+
+  .footer__contact--list {
+    margin-left: 3rem;
+  }
+
+  .footer__contact--p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .main__about {
+    margin-top: 5rem;
+  }
+
+  .main__about--image {
+    width: 80%
+  }
+
+  .main__hero--citation {
+    font-size: 3rem;
+  }
+
+  .main__projects {
+    margin-bottom: 4rem;
+  }
+
+  .main__projects--info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .main__projects--container {
+    margin-bottom: 3rem;
+  }
+
+  .main__projects--img {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .footer__info {
+    width: 90%;
+  }
+
+  .footer__contact {
+    margin-right: 0;
+  }
+
+  .footer__contact--list {
+    justify-content: space-around;
+    margin: 0 3rem;
+  }
+
+  .footer__nav {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+
+  .footer__menu {
+    justify-content: space-around;
+  }
+
+  .footer__menu--item {
+    padding: 0 1rem;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .main__hero--citation {
+    font-size: 2.5rem;
+  }
+
+  .main__about,
+  .main__projects {
+    margin: 4rem auto;
+  }
+
+  .main__about--image {
+    width: 80%
+  }
+
+  .main__about--info {
+    margin: 1rem auto;
+    width: 95%;
+  }
+
+  .footer {
+    padding: 2rem 0;
+  }
+
+  .footer__nav {
+    font-size: 1rem;
+    padding-top: 4rem;
+  }
+
+  .footer__menu--item {
+    padding: 0 1rem;
+  }
+}
