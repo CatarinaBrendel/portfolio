@@ -6,9 +6,18 @@
 }
 
 .main,
-.main__info--subtitle,
-.main__info--title {
+.main__info--subtitle {
   margin: 0;
+}
+
+.main__info--title {
+  margin: 0 0 3rem;
+}
+
+.main__info--p {
+  line-height: 2.5rem;;
+  margin: 1rem auto;
+  width: 90%;
 }
 
 .main__projects--info {
@@ -32,6 +41,7 @@
 
 .main__projects--description {
   align-self: center;
+  line-height: 2.5rem;
   margin: 3rem 1rem;
 }
 
