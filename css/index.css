@@ -317,7 +317,12 @@ body {
 
   .main__projects--list {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .main__projects--link {
+    font-size: 2rem;
+    margin: 2rem auto;
   }
 
   .main__projects--info {
