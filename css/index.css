@@ -81,7 +81,7 @@ body {
 .main__about,
 .main__projects,
 .footer {
-  margin: 12rem auto;
+  margin: 10rem auto;
 }
 
 .main__hero--subtitle,
@@ -150,6 +150,7 @@ body {
 
 .main__projects--link {
   color: inherit;
+  font-size: 1.2rem;
   font-weight: bold;
   margin: 0 1rem;
   text-decoration: none;
@@ -163,7 +164,7 @@ body {
 
 .button {
   font-size: 1.3rem;
-  margin: 0 auto;
+  margin: 3rem auto;
   text-align: right;
   transition: all .2s;
 }
@@ -321,7 +322,7 @@ body {
 
   .main__projects--link {
     font-size: 2rem;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
   }
 
   .main__projects--info {
