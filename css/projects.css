@@ -1,4 +1,3 @@
-
 .main__info {
   margin: 6rem auto;
   max-width: 102rem;
@@ -20,6 +19,10 @@
   width: 90%;
 }
 
+.main__projects--title {
+  list-style: none;
+}
+
 .main__projects--info {
   align-items: center;
   background-color: #8299b271;
@@ -39,6 +42,10 @@
   width: 50%;
 }
 
+.main__projects--item {
+  text-align: center;
+}
+
 .main__projects--description {
   align-self: center;
   line-height: 2.5rem;
@@ -46,7 +53,7 @@
 }
 
 /* ------ Media Queries ------ */
-@media (max-width: 750px) {
+@media (max-width: 810px) {
 
   .main__info {
     margin-bottom: 2rem;
@@ -56,14 +63,9 @@
     margin-top: 0;
   }
 
-  .main__projects--info {
-    margin: 1rem 0;
-    padding: 3rem 1rem;
-  }
-
   .main__projects--img {
-    border-right: 0;
-    margin: 0;
+    border-right: none;
+    margin: 2rem auto;
     padding-right: 0;
     width: 80%;
   }
