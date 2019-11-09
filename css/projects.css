@@ -21,6 +21,7 @@
 
 .main__projects--title {
   list-style: none;
+  margin-top: 1rem;
 }
 
 .main__projects--info {
@@ -53,7 +54,7 @@
 }
 
 /* ------ Media Queries ------ */
-@media (max-width: 810px) {
+@media (max-width: 899px) {
 
   .main__info {
     margin-bottom: 2rem;
